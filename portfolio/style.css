@@ -194,6 +194,12 @@ section.topo-do-site .flex {
 }
 
 /* ESTILO DAS ESPECIALIDADES */
+.interface .flex {
+    display: flex;
+    justify-content: space-evenly;
+    /* ou use space-around */
+}
+
 section.especiliadades {
     padding: 40px 4%;
 }
@@ -224,6 +230,8 @@ section.especiliadades .flex {
     font-size: 28px;
     margin: 15px 0;
 }
+
+
 
 /* ESTILO DO SOBRE */
 section.sobre {
